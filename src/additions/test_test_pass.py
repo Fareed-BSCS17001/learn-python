@@ -6,8 +6,10 @@ The pass statement does nothing. It can be used when a statement is required syn
 the program requires no action.
 """
 
+
 def test_pass_function():
     pass
+
 
 def test_pass_in_loop():
     """PASS in loops.
@@ -20,15 +22,15 @@ def test_pass_in_loop():
     for number in range(100):
         # It just don't do anything but for loop is still valid.
         pass
-        
+
     if 2 < 5:
         pass
-        
+
     try:
         pass
     except:
-        pass    
-        
+        pass
+
     try:
         assert True == False
     except Exception:

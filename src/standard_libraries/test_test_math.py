@@ -20,6 +20,7 @@ def test_math():
     assert math.sin(0.5) == 0.479425538604203
     assert math.exp(3) == 20.085536923187668
 
+
 def test_random():
     """Random.
 
@@ -39,7 +40,7 @@ def test_random():
     random_float = random.random()  # i.e. 0.17970987693706186
     assert 0 <= random_float <= 1
 
-    random_float = random.randint(50,100)  # i.e. 0.17970987693706186
+    random_float = random.randint(50, 100)  # i.e. 0.17970987693706186
     assert 50 <= random_float <= 100
 
     # Random integer chosen from range(6)

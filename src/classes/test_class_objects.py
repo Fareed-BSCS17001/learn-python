@@ -62,6 +62,7 @@ def test_class_objects():
 
     class ComplexNumberWithConstructor:
         """Example of the class with constructor"""
+
         def __init__(self, real_part, imaginary_part):
             self.real = real_part
             self.imaginary = imaginary_part

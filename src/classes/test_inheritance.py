@@ -10,6 +10,7 @@ of the same code, inheritance allows a derived class to reuse the same code and 
 # pylint: disable=too-few-public-methods
 class Person:
     """Example of the base class"""
+
     def __init__(self, name):
         self.name = name
 
@@ -37,6 +38,7 @@ class Employee(Person):
     clients as well. (Note that this only works if the base class is accessible as BaseClassName
     in the global scope.)
     """
+
     def __init__(self, name, staff_id):
         Person.__init__(self, name)
         # You may also use super() here in order to avoid explicit using of parent class name:

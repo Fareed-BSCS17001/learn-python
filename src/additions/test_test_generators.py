@@ -26,6 +26,7 @@ def even_number_generator():
         if i % 2 == 0:
             yield i
 
+
 def test_generators():
     """Yield statement"""
     for number_index, random_number in enumerate(even_number_generator()):

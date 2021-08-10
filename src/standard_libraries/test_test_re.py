@@ -12,7 +12,7 @@ import re
 def test_re():
     """String Pattern Matching"""
 
-    #find the words that start with f and ends with l
+    # find the words that start with f and ends with l
     assert re.findall(r'\bf[a-z]*l', 'football is played with feet. you are a fool who fell.') == [
         'football',
         'fool',
