@@ -218,7 +218,7 @@ def test_string_formatting():
     # mark where a variable will be substituted and can provide detailed formatting directives,
     # but you’ll also need to provide the information to be formatted.
     yes_votes = 42_572_654  # equivalent of 42572654
-    no_votes = 43_132_495   # equivalent of 43132495
+    no_votes = 43_132_495  # equivalent of 43132495
     percentage = yes_votes / (yes_votes + no_votes)
 
     assert '{:-9} YES votes  {:2.2%}'.format(yes_votes, percentage) == ' 42572654 YES votes  49.67%'
@@ -239,7 +239,7 @@ def test_string_formatting():
 
     assert str(greeting) == 'Hello, world.'
     assert repr(greeting) == "'Hello, world.'"
-    assert str(1/7) == '0.14285714285714285'
+    assert str(1 / 7) == '0.14285714285714285'
 
     # The argument to repr() may be any Python object:
     assert repr((first_num, second_num, ('spam', 'eggs'))) == "(32.5, 40000, ('spam', 'eggs'))"
